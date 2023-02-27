@@ -1,0 +1,72 @@
+section{
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  overflow: hidden;
+  margin: auto;
+ }
+ .produto{
+  width: 33.33%;
+  height: auto;
+  padding: 18px;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  color: black;
+  overflow: hidden;
+}
+marquee{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color: rgb(30, 31, 33);
+}
+.ImagemProduto img {
+  width: 220px;
+  height: 240px;
+  border-radius: 15px;
+}
+.ImagemProduto{
+  margin: 0;  
+}
+  legend{
+  font-size: 16px;
+  color: black;
+}
+.produto p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.produto button{
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 197, 20);
+  border-radius: 10px;
+  margin:7px;
+  border: none;
+}
+.produto button:hover{
+  background-color:  rgb(80, 235, 95);
+}
+.produto input{
+  width: 100px;
+  height: 35px;
+  font-weight: bold;
+  color: black;
+  border-radius: 10px;
+  border-color: black;
+  border: 10;
+  outline: none;
+  text-align: center;
+  margin: 7px;
+ }
+ @media only screen and (max-width: 600px){
+  .produto{
+     width: 100%;
+  }
+  .setor{
+     width: 100%;    
+  }
+ }
+ 

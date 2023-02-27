@@ -1,0 +1,22 @@
+
+.carousel-indicators .active{
+   background-color: blue;
+ }
+ .carousel-item img{
+   width: 100%;
+   height: auto;
+ }
+ @media only screen and (max-width: 600px){
+  .carousel-indicators{
+     width: 100%;
+     }
+  .carousel-item{
+     width: 100%;    
+     }
+    .carousel slide{
+     width: 100%;
+   }
+   
+}
+    
+  
